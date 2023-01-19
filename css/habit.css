@@ -23,6 +23,45 @@ header
     padding: 5px;
 }
 
+form
+{
+    display: flex;
+}
+
+.days
+{
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+}
+
+.day
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+
+input
+{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 64px;
+    height: 64px;
+
+    background: #18181B;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+}
+
+input:checked
+{
+    border: 2px solid #A78BFA;
+    background: #8B5CF6;
+}
+
 button
 {
     padding: 16px 24px;
